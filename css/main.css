@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+.card{
+    text-align: center;
+    margin-top: 25px;
+}
+.card h2{
+    font-size: 20px;
+}
+.card p{
+    font-size: 17px;
+}
+.img_item{
+cursor: pointer;
+}
+#lightBoxContainer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.503);
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+#lightBoxItem{
+    width: 600px;
+    height: 400px;
+    background-image: url(../img/single_blog_4.png);
+    background-size: cover;
+    display: flex;
+align-items: center;
+justify-content: space-between;
+position: relative;
+
+}
+i{
+    font-size: 30px;
+    margin: 0 15px;
+}
+#close{
+    position: absolute;
+    top: 15px;
+    margin: 0;
+    right: 15px;
+}
